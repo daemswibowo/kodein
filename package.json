@@ -1,0 +1,33 @@
+{
+  "name": "@daemswibowo/kodein",
+  "version": "1.0.0",
+  "description": "Makes it easier for you to start projects with company standards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "vue"
+  ],
+  "author": "Dimas Wibowo",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "bin": {
+    "create": "bin/create.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daemswibowo/kodein.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daemswibowo/kodein/issues"
+  },
+  "homepage": "https://github.com/daemswibowo/kodein#readme"
+}
